@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SoxUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SoxUI</h1>
+        </header>
+        <main>
+            <div class="card">
+                <button type="button" id="btn-playall" class="action-button">Play All</button>
+                <p class="hint">Runs playall.sh</p>
+            </div>
+            <div class="card">
+                <button type="button" id="btn-bookmark" class="action-button">Bookmark</button>
+                <p class="hint">Runs bookmark.sh</p>
+            </div>
+            <div class="card">
+                <button type="button" id="btn-stop" class="action-button stop">Stop Sox</button>
+                <p class="hint">Runs killsox.sh</p>
+            </div>
+        </main>
+        <footer>
+            <p id="status">Tap a button to run the Sox extension script.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
