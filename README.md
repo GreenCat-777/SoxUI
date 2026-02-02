@@ -6,6 +6,7 @@ It's kinda poorly built but, cool right
 HF & SF
 
 # Credits:
+* dhdguree and others - creators of Sox Media Player
 * [Penguins184](https://github.com/penguins184) - Illusion/IllusionUtild
 * [KindleModShelfGuy](https://github.com/NemesisHubris/) - Icon, Idea,
 
